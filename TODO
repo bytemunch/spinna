@@ -1,0 +1,16 @@
+[] isolate cheat AI from code
+    just modify spinner vals from outside when cheating, like cheatengine
+
+[X] pick point from color wheel based on segment start point
+    offscreen canvas with radial gradient, get color at point
+    just use HSL you neanderthal
+
+    gauranteed varied colors
+    - similar colours next to eachother in larger sets might look bad?
+        offset scramble or something when it starts looking shit?
+
+[] nice design
+    pick a color scheme
+    pick a design language
+
+

@@ -1,0 +1,81 @@
+:root {
+    --background-color: #3d3d3d;
+    --text-color: #ffffffd4;
+    --theme-color: #5a0fc8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    background: var(--background-color);
+    color: var(--text-color);
+}
+
+#content {
+    width: 100%;
+    height: 100%;
+    border: 2px dotted var(--theme-color);
+    margin: auto;
+    position: relative;
+}
+
+button {
+    position: relative;
+    display: block;
+    margin: 5px auto 5px auto;
+    font-size: large;
+}
+
+input {
+    font-size: large;
+}
+
+.number {
+    position: absolute;
+    display: inline;
+    margin-top: 4px;
+    right: calc(50% + 120px);
+    text-align: right;
+}
+
+#inputs {
+    max-height: 80%;
+    overflow-y: scroll;
+    position: relative;
+}
+
+input.duplicate {
+    background-color: palevioletred;
+}
+
+button#start {
+    margin-top: 20px;
+}
+
+canvas {}
+
+#spin {
+    margin-top: -50%;
+    transform: translateY(-50%);
+    border-radius: 100%;
+    width: 64px;
+    height: 64px;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#spin:disabled {
+    opacity: 0.5;
+}
